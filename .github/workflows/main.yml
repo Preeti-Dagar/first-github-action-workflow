@@ -1,0 +1,13 @@
+name: Preeti Yadav
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  devops:
+     runs-on: ubuntu-latest
+
+     steps:
+       - name: Greetings
+         run: echo "hello from this side"
